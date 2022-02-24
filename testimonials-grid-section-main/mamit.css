@@ -1,0 +1,200 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-radius: 10px;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+/**top-container**/
+.top-container{
+    display: flex;
+    gap: 2rem;
+}
+
+/**bottom-container**/
+.bottom-container{
+    display: flex;
+    gap: 2rem;
+}
+
+/**left-container**/
+.left-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container{
+    display: flex;
+    margin: 5rem;
+    gap: 2rem;
+    height: fit-content;
+}
+
+
+
+
+/**daniel**/
+
+.daniel-cont{
+    
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    background-color: hsl(263, 55%, 52%);
+    z-index: -1;
+    flex-basis: 130%;
+    height: fit-content;
+}
+
+.quotation{
+    position: absolute;
+    top: 0;
+    right: 11rem;
+    z-index: -1;
+}
+
+.daniel-cont p{
+    color: hsla(0, 0%, 81%,50%);
+}
+
+.daniel-cont h2{
+    color: hsl(0, 0%, 100%);
+}
+
+.daniel-cont h4{
+    color: hsl(210, 46%, 95%);
+}
+
+
+div .info{
+    display: flex;
+    gap: 1.5rem;
+}
+
+div .info img{
+    border: 2px solid ;
+    border-radius: 50%;
+    width: 30px;
+    
+}
+
+
+
+/**Jonathan**/
+
+.jona-cont{
+    padding: 2rem ; 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    background-color: hsl(217, 19%, 35%);
+    flex-basis: 50%;
+    height: fit-content;
+}
+
+.jona-cont h2{
+    color: hsl(0, 0%, 100%);
+}
+
+.jona-cont h4{
+    color: hsl(0, 0%, 100%);
+}
+
+.jona-cont p{
+    color: hsla(0, 0%, 100%,50%);
+}
+
+
+
+
+/**jean**/
+
+.jean-cont{
+   
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color:hsl(0, 0%, 100%) ;
+    height: 230px;
+    padding-bottom: 3rem;
+}
+
+.jean-cont p{
+    color: hsla(0, 0%, 81%,);
+}
+
+.jean-cont #jean-review{
+    width: 14rem; 
+    line-height: 1.5rem; 
+    color:   hsl(0, 0%, 81%,);;
+}
+
+/**patrick**/
+
+.patrick-cont{
+   
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: hsl(219, 29%, 14%);
+    height: 230px;
+    padding-bottom: 3rem;
+}
+
+.patrick-cont h4{
+    color:  hsl(0, 0%, 100%);
+}
+
+.patrick-cont .info img{
+    border-color:  hsl(263, 55%, 52%);;
+}
+
+.patrick-cont p{
+    color:  hsla(0, 0%, 100%, 50%) ;
+}
+
+
+ .review {
+    color:   hsla(0, 0%, 81%, 70%);;
+    line-height: 1.5rem;
+}
+
+.patrick-cont h2{
+    color:  hsl(0, 0%, 100%);
+    line-height: 2rem;
+}
+
+
+/**Kira**/
+.kira-cont{
+   
+    padding:2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex-basis: 0%;
+    background-color:hsl(0, 0%, 100%) ;
+    height: fit-content;
+}
+
+#reviewer{
+    color:   hsla(0, 0%, 81%,);;
+    line-height: 21px;
+    width: 15rem;
+}
+
+
+
+
+
+
+
